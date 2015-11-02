@@ -26,3 +26,7 @@ module.exports.Timestamp = bson.Timestamp
 module.exports.MinKey = bson.MinKey
 module.exports.MaxKey = bson.MaxKey
 module.exports.NumberLong = bson.Long
+
+module.exports.Database = Database;
+module.exports.Collection = require('./lib/collection');
+module.exports.Cursor = require('./lib/cursor');
